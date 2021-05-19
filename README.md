@@ -1,4 +1,4 @@
-# AlphaHomora 💫 🔐
+# Dahlia Finance
 
 **Unlock Your Yield Farming Potential**
 
