@@ -19,8 +19,8 @@ contract Bank is ERC20, ReentrancyGuard, Ownable {
     event Work(uint256 indexed id, uint256 loan);
     event Kill(uint256 indexed id, address indexed killer, uint256 prize, uint256 left);
 
-    string public name = "Interest Bearing ETH";
-    string public symbol = "ibETH";
+    string public name = "Interest Bearing CELO";
+    string public symbol = "ibCELO";
     uint8 public decimals = 18;
 
     struct Position {
