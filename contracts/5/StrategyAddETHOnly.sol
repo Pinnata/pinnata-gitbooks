@@ -1,7 +1,7 @@
 pragma solidity 0.5.16;
-import "openzeppelin-solidity-2.3.0/contracts/ownership/Ownable.sol";
-import "openzeppelin-solidity-2.3.0/contracts/math/SafeMath.sol";
-import "openzeppelin-solidity-2.3.0/contracts/utils/ReentrancyGuard.sol";
+import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "openzeppelin-solidity/contracts/utils/ReentrancyGuard.sol";
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol";
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol";
 import "@uniswap/v2-core/contracts/libraries/Math.sol";
@@ -23,7 +23,7 @@ contract StrategyAllETHOnly is Ownable, ReentrancyGuard, Strategy {
     constructor(IUniswapV2Router02 _router) public {
         factory = IUniswapV2Factory(_router.factory());
         router = _router;
-        weth = _router.WETH();
+        weth = 0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9;
     }
 
     /// @dev Execute worker strategy. Take LP tokens + ETH. Return LP tokens + ETH.

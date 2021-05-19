@@ -1,6 +1,6 @@
 pragma solidity 0.5.16;
-import "openzeppelin-solidity-2.3.0/contracts/ownership/Ownable.sol";
-import "openzeppelin-solidity-2.3.0/contracts/math/SafeMath.sol";
+import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "./BankConfig.sol";
 import "./GoblinConfig.sol";
 

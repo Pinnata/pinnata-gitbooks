@@ -1,8 +1,8 @@
 pragma solidity =0.5.16;
 
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol";
-import "openzeppelin-solidity-2.3.0/contracts/token/ERC20/IERC20.sol";
-import "openzeppelin-solidity-2.3.0/contracts/math/SafeMath.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 import "../weth/IWETH.sol";
 import "./UniswapV2Library.sol";

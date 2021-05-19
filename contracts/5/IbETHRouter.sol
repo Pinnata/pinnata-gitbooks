@@ -1,6 +1,6 @@
 pragma solidity =0.5.16;
-import "openzeppelin-solidity-2.3.0/contracts/ownership/Ownable.sol";
-import "openzeppelin-solidity-2.3.0/contracts/token/ERC20/IERC20.sol";
+import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
 import "@uniswap/v2-core/contracts/libraries/Math.sol";
 import "./uniswap/UniswapV2Library.sol";
 import "./uniswap/IUniswapV2Router02.sol";

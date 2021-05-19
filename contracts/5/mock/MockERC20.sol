@@ -1,6 +1,6 @@
 pragma solidity 0.5.16;
-import "openzeppelin-solidity-2.3.0/contracts/token/ERC20/ERC20.sol";
-import "openzeppelin-solidity-2.3.0/contracts/ownership/Ownable.sol";
+import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
+import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
 
 contract MockERC20 is ERC20, Ownable {
     string public name;
