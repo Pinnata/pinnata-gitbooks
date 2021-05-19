@@ -1,6 +1,6 @@
 # Dahlia Finance
 
-**Unlock Your Yield Farming Potential**
+**Bring high yield savings account to the masses**
 
 The repository contains the smart contracts of [AlphaHomora](https://homora.alphafinance.io) leveraged yield farming protocol on [Ethereum](https://ethereum.org/) and [Binance Smart Chain](https://www.binance.org/en/smartChain) and any other EVM compatible blockchains you like. With AlphaHomora, the lenders can earn interests on supplied blockchain native currencies (i.e. ETH or BNB), while the farmers can borrow the currencies to farm with higher APY rates. Win-win.
 
