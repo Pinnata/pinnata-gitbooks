@@ -15,32 +15,25 @@ module.exports = function (deployer, network, [creator]) {
 
   deployer.then(async () => {
     const router = await UniswapV2Router02.at('0xe3d8bd6aed4f159bc8000a9cd47cffdb95f96121');  
-    console.log(await router.factory());     
     const factory = await UniswapV2Factory.at(await router.factory());
-    console.log("in")
 
     const weth = await WETH.at("0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9");
-    console.log(1)
     await deployer.deploy(MockERC20, 'MOCK', 'MOCK');
     const token = await MockERC20.deployed();
-    console.log(2)
 
     await deployer.deploy(MockERC20, 'UNISWAP', 'UNI');
     const uni = await MockERC20.deployed();
-    console.log(3)
 
     await factory.createPair(weth.address, token.address);
     const pair = await factory.getPair(token.address, weth.address);
     const lp = await UniswapV2Pair.at(pair);
-    console.log(4)
 
     await deployer.deploy(StrategyAllETHOnly, router.address);
-    const addStrat = await StrategyAllETHOnly.deployed();
-    console.log(5)
+    const addStrat = await Strategy
+    AllETHOnly.deployed();
 
     await deployer.deploy(StrategyLiquidate, router.address);
     const liqStrat = await StrategyLiquidate.deployed();
-    console.log(5)
 
     await deployer.deploy(
       SimpleBankConfig,
@@ -49,10 +42,8 @@ module.exports = function (deployer, network, [creator]) {
       '1000', // 10% reserve pool
       '1000' // 10% Kill prize
     );
-    console.log(6)
 
     const config = await SimpleBankConfig.deployed();
-    console.log(7)
 
     await deployer.deploy(Bank, config.address);
     const bank = await Bank.deployed();
