@@ -29,8 +29,7 @@ module.exports = function (deployer, network, [creator]) {
     const lp = await UniswapV2Pair.at(pair);
 
     await deployer.deploy(StrategyAllETHOnly, router.address);
-    const addStrat = await Strategy
-    AllETHOnly.deployed();
+    const addStrat = await StrategyAllETHOnly.deployed();
 
     await deployer.deploy(StrategyLiquidate, router.address);
     const liqStrat = await StrategyLiquidate.deployed();
