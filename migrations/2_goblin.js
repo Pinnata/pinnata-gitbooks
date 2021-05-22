@@ -46,11 +46,9 @@ module.exports = function (deployer, network, [creator]) {
 
     await deployer.deploy(Bank, config.address);
     const bank = await Bank.deployed();
-    console.log(8)
 
     await deployer.deploy(StakingRewards, creator, creator, uni.address, lp.address);
     const staking = await StakingRewards.deployed();
-    console.log(9)
 
     await deployer.deploy(
       UniswapGoblin,
@@ -66,11 +64,9 @@ module.exports = function (deployer, network, [creator]) {
     console.log(10)
 
     const goblin = await UniswapGoblin.deployed();
-    console.log(11)
 
     // setup goblin to config
     await config.setGoblin(goblin.address, true, true, '7000', '8000');
-    console.log(12)
 
     // mint mock token to deployer
     await token.mint(creator, web3.utils.toWei('100', 'ether'));
