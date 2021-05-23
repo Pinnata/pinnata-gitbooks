@@ -1,3 +1,14 @@
+```
+++++++++++++              +++++        ++++       ++++   ++++           ++++++++++++        ++++++  
+++++++++++++++++       +++++++++++     ++++       ++++   ++++           ++++++++++++     ++++++++++++
+++++          ++++   ++++       ++++   ++++       ++++   ++++               ++++       ++++        ++++
+++++          ++++   +++++++++++++++   +++++++++++++++   ++++               ++++       ++++++++++++++++
+++++          ++++   +++++++++++++++   +++++++++++++++   ++++               ++++       ++++++++++++++++
+++++          ++++   ++++       ++++   ++++       ++++   ++++               ++++       ++++        ++++
+++++++++++++++++     ++++       ++++   ++++       ++++   ++++++++++++   ++++++++++++   ++++        ++++
+++++++++++++.        ++++       ++++   ++++       ++++   ++++++++++++   ++++++++++++   ++++        ++++
+```
+
 # Dahlia Finance
 
 **Leveraged Yield Farming on Celo**
@@ -12,13 +23,13 @@
 
 Bank is the smart contract that manages all leveraged yeild farming positions. All interactions to Dahlia happen through this smart contract. If you are a rich wizard you can deposit your ETH/BNB to earn intersts. If you are a poor farmer 👩‍🌾, you can open a new position on Bank by specifying the debt you will take anda Goblin who will work for your position.
 
-### Goblins 👺 ([code](./contracts/Goblin.sol))
+### Goblins ([code](./contracts/Goblin.sol))
 
-### UniswapGoblin 🦄👺 ([code](./contracts/UniswapGoblin.sol))
+### UniswapGoblin ([code](./contracts/UniswapGoblin.sol))
 
-### StrategyAddETHOnly ⬆️Ξ ([code](./contracts/StrategyAddETHOnly.sol))
+### StrategyAddETHOnly([code](./contracts/StrategyAddETHOnly.sol))
 
-### StrategyLiquidate ⬇️Ξ ([code](./contracts/StrategyLiquidate.sol))
+### StrategyLiquidate ([code](./contracts/StrategyLiquidate.sol))
 
 ### Active Bug Bounty Program: https://immunefi.com/bounty/alphafinance/
 
