@@ -19,11 +19,11 @@
 
 ### Smart Contract Structure
 
-#### Bank\([code](https://github.com/Dahlia-Finance/core_contracts/tree/de2e7b873ffc6d27e56719976fcb583831c8dd10/contracts/Bank.sol)\)
+#### DahliaBank \[code\]
 
-Bank is the smart contract that manages all leveraged yeild farming positions. All interactions to Dahlia happen through this smart contract. If you are a rich wizard you can deposit your ETH/BNB to earn intersts. If you are a poor farmer 👩‍🌾, you can open a new position on Bank by specifying the debt you will take anda Goblin who will work for your position.
+DahliaBank is the smart contract that manages all the leveraged yield farming positions. Users of Dahlia primarily interact with this contract b specifying the debt they would like to take on.
 
-#### Goblins \([code](https://github.com/Dahlia-Finance/core_contracts/tree/de2e7b873ffc6d27e56719976fcb583831c8dd10/contracts/Goblin.sol)\)
+#### Spells \[code\]
 
 #### UniswapGoblin \([code](https://github.com/Dahlia-Finance/core_contracts/tree/de2e7b873ffc6d27e56719976fcb583831c8dd10/contracts/UniswapGoblin.sol)\)
 
