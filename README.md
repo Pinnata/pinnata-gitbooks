@@ -13,13 +13,13 @@
 
 ## Dahlia Finance
 
-**Leveraged Yield Farming on Celo**
+**Leveraged yields on Celo**
 
-[Dahlia](https://alfajores.dahlia.finance) is a leveraged yield farming protocol on [Celo](https://celo.org/) that offers high APY to Celo token lenders and farmers uncollateralized leverage on staked farming pools.
+[Dahlia](https://alfajores.dahlia.finance) is a leveraged yield farming protocol that offers **yield farmers** access to leverage when providing liquidity to a decentralized exchange on Celo. ****The interest rate, dictated by the utilization rate, get charged to the borrowers, and then paid out to lenders. 
 
-### Smart Contract Structure
+### Core Smart Contracts
 
-#### DahliaBank \[code\]
+#### DahliaBank.sol 
 
 DahliaBank is the smart contract that manages all the leveraged yield farming positions. Users of Dahlia primarily interact with this contract b specifying the debt they would like to take on.
 

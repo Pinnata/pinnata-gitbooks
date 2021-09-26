@@ -14,16 +14,19 @@
 * [Fountain of Youth](lenders/fountain-of-youth.md)
 * [Lend assets](lenders/lend-assets.md)
 * [Manage assets](lenders/manage-assets.md)
-* [List of Assets Support \[UPDATE\]](lenders/list-of-assets-support-update.md)
 
-## Bridge
+## Cross-chain functionality <a id="bridge"></a>
 
-* [Cross-chain functionality](bridge/cross-chain-functionality.md)
-* [Allbridge](bridge/allbridge.md)
-* [Optics](bridge/optics.md)
+* [Bridge Aggregator](bridge/cross-chain-functionality.md)
+
+## DEVELOPER DOCS
+
+* [Untitled](developer-docs/untitled.md)
 
 ---
 
 * [dahlia.finance](https://dahlia.finance/)
-* [Audit](https://github.com/Dahlia-Finance/dahlia-v2)
+* [Twitter](https://twitter.com/dahliafinance)
+* [Medium](https://medium.com/dahlia-finance)
+* [GitHub](https://github.com/Dahlia-Finance)
 
