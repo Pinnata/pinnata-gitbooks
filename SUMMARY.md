@@ -2,18 +2,25 @@
 
 * [README](README.md)
 * [FAQ](faq.md)
-* [Audit](audit.md)
+* [Audit and Risks](audit.md)
+
+## INFORMATION
+
+* [Pages](information/pages.md)
+* [Connecting Wallets](information/connecting-wallets.md)
 
 ## Yield Farmers
 
 * [Types of pools](yield-farmers/types-of-pools.md)
 * [Opening a farm position](yield-farmers/opening-a-farm-position.md)
+* [Close a position](yield-farmers/close-a-position.md)
+* [Managing leverage](yield-farmers/managing-leverage.md)
 
 ## Lenders
 
 * [Fountain of Youth](lenders/fountain-of-youth.md)
 * [Lend assets](lenders/lend-assets.md)
-* [Manage assets](lenders/manage-assets.md)
+* [Withdraw assets](lenders/withdraw-assets.md)
 
 ## Cross-chain functionality <a id="bridge"></a>
 
@@ -21,7 +28,9 @@
 
 ## DEVELOPER DOCS
 
-* [Untitled](developer-docs/untitled.md)
+* [Core Smart Contracts](developer-docs/untitled.md)
+* [Token Wrappers](developer-docs/token-wrappers.md)
+* [Liquidator Bot](developer-docs/liquidator-bot.md)
 
 ---
 

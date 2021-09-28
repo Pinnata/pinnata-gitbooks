@@ -1,39 +1,22 @@
 # README
 
-```text
-++++++++++++              +++++        ++++       ++++   ++++           ++++++++++++        ++++++  
-++++++++++++++++       +++++++++++     ++++       ++++   ++++           ++++++++++++     ++++++++++++
-++++          ++++   ++++       ++++   ++++       ++++   ++++               ++++       ++++        ++++
-++++          ++++   +++++++++++++++   +++++++++++++++   ++++               ++++       ++++++++++++++++
-++++          ++++   +++++++++++++++   +++++++++++++++   ++++               ++++       ++++++++++++++++
-++++          ++++   ++++       ++++   ++++       ++++   ++++               ++++       ++++        ++++
-++++++++++++++++     ++++       ++++   ++++       ++++   ++++++++++++   ++++++++++++   ++++        ++++
-++++++++++++.        ++++       ++++   ++++       ++++   ++++++++++++   ++++++++++++   ++++        ++++
-```
+## What is Dahlia?
 
-## Dahlia Finance
+_Dahlia is a leveraged yield farming protocol that offers **yield farmers** access to as much as 9x leverage when providing liquidity to a decentralized exchange on Celo._ 
 
-**Leveraged yields on Celo**
+In return, the protocol is able to offer incredibly high interest rate to lenders without the direct risks of yield farming. Hence, the Dahlia protocol supports it DeFi on Celo in two ways. One by directly by offering high interest rates on idle assets, and indirectly by acting as a liquidity engine for the ecosystem, enabling greater capital formation and price discovery.
 
-[Dahlia](https://alfajores.dahlia.finance) is a leveraged yield farming protocol that offers **yield farmers** access to leverage when providing liquidity to a decentralized exchange on Celo. ****The interest rate, dictated by the utilization rate, get charged to the borrowers, and then paid out to lenders. 
+![](.gitbook/assets/dahlia-logo%20%281%29.png)
 
-### Core Smart Contracts
+## Getting Started <a id="8698"></a>
 
-#### DahliaBank.sol 
+To get started, head on over to our [website](https://dahlia.finance/) and instantly earn or access leverage! If you have any questions you can reach us at the following socials:
 
-DahliaBank is the smart contract that manages all the leveraged yield farming positions. Users of Dahlia primarily interact with this contract b specifying the debt they would like to take on.
+> _Join us on_ [_Discord_](https://discord.gg/YVJycuqk)
+>
+> _Follow us on_ [_Twitter_](https://twitter.com/dahliafinance)\_\_
 
-#### Spells \[code\]
 
-#### UniswapGoblin \([code](https://github.com/Dahlia-Finance/core_contracts/tree/de2e7b873ffc6d27e56719976fcb583831c8dd10/contracts/UniswapGoblin.sol)\)
 
-#### StrategyAddETHOnly\([code](https://github.com/Dahlia-Finance/core_contracts/tree/de2e7b873ffc6d27e56719976fcb583831c8dd10/contracts/StrategyAddETHOnly.sol)\)
 
-#### StrategyLiquidate \([code](https://github.com/Dahlia-Finance/core_contracts/tree/de2e7b873ffc6d27e56719976fcb583831c8dd10/contracts/StrategyLiquidate.sol)\)
-
-#### Active Bug Bounty Program: [https://immunefi.com/bounty/alphafinance/](https://immunefi.com/bounty/alphafinance/)
-
-### License
-
-[MIT License](https://opensource.org/licenses/MIT)
 

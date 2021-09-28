@@ -4,27 +4,24 @@ description: Walkthrough on each pool type & where APY comes from
 
 # Types of pools
 
-## Leveraged yield farming pools \(more than 1x\) <a id="leveraged-yield-farming-pools-more-than-1x"></a>
+## Yield farming pools with leverage <a id="leveraged-yield-farming-pools-more-than-1x"></a>
 
-For leveraged \(more than 1x\) yield farming pools, the APY comes from 
+A user to farming for rewards in the form of LP tokens on top of fees earned from the pool itself is entering a "yield farming pool." As such the breakdown of the APY is;
 
-* Yield farming APY on leverage 
-* Trading fees APY on leverage and
-* ALPHA rewards as a part of liquidity mining program, see [here]()
+* Trading fees
+* LP \(reward\) tokens
 
-## Leveraged liquidity providing pools \(more than 1x\) <a id="leveraged-liquidity-providing-pools-more-than-1x"></a>
+## Liquidity providing pools with leverage  <a id="leveraged-liquidity-providing-pools-more-than-1x"></a>
 
-For leveraged \(more than 1x\) liquidity providing pools, the APY comes from 
+Unlike yield farming pools, APY is derived just from trading fees with leverage. As such the breakdown of the APY is;
 
-* Trading fees APY on leverage
-* ALPHA rewards as a part of liquidity mining program, see [here]()
+* Trading fees
 
-## Yield farming pools with no leverage \(1x only\) <a id="yield-farming-pools-with-no-leverage-1-x-only"></a>
+## Providing liquidity with no leverage  <a id="yield-farming-pools-with-no-leverage-1-x-only"></a>
 
-For yield farming pools with no leverage \(1x\), the APY comes from 
+While the Dahlia protocol is designed to enable users to provide liquidity with leverage, users can also choose to use the contracts to easily stake into farming/LP pools without any exposure to leverage. 
 
-* Yield farming APY
-* Trading fees APY
+Ubeswap and Mobius have announced plans to provide an interface for liquidity providing.
 
-## Liquidity providing pools with no leverage \(1x only\) <a id="liquidity-providing-pools-with-no-leverage-1-x-only"></a>
+
 
