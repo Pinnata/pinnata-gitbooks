@@ -2,9 +2,7 @@
 
 **The amount of leverage a users can access is determined by the amount of assets being supplied as collateral a a given time relative to the assets borrowed.** 
 
-\*\*\*\*
-
-_Collateral credit:_ Each asset has its own collateral credit value. A collateral credit value determines how much credit is gained from collateralizing an asset. Note: collateral is only taken from the liquidity supplied on step 1 when opening a farming position.
+Each asset that cis being borrowed has its own collateral value known as **collateral credit.** This value indicates a user how much credit is accessible from collateralizing an asset. asset has its own collateral credit value. Collateral is only taken from the liquidity supplied on step 1 when opening a farming position.
 
 _Borrowing credit_: Each asset also has its own borrowing credit value. A borrowing credit value determines how much credit \(received from collateralizing an asset\) is consumed from borrowing an asset.
 
