@@ -28,7 +28,6 @@
 
 ## DEVELOPER DOCS
 
-* [Core Smart Contracts](developer-docs/untitled.md)
 * [Token Wrappers](developer-docs/token-wrappers.md)
 * [Liquidator Bot](developer-docs/liquidator-bot.md)
 
