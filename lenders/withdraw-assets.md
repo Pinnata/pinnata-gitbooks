@@ -2,17 +2,18 @@
 
 ## Navigate to the Earn page and follow these steps.
 
-\(1\) Select an asset to withdraw.
+(1) Select an asset to withdraw.
 
-\(2️\) Withdraw liquidity
+(2) Enter an amount
 
-\(3\) Confirm amount
+(3) Confirm withdraw
 
-## 1\) Find the asset, and press the green "withdraw" button
+## 1) Find the asset, and press the green "withdraw" button
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](<../.gitbook/assets/Screen Shot 2021-10-11 at 2.03.22 PM (1).png>)
 
-## 2\) Set the amount, and withdraw!
+## 2) Set the amount
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](<../.gitbook/assets/image (6).png>)
 
+## Confirm the withdrawl

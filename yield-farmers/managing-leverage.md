@@ -2,11 +2,11 @@
 
 **The amount of leverage a users can access is determined by the amount of assets being supplied as collateral a a given time relative to the assets borrowed. **
 
-Each asset that cis being borrowed has its own collateral value known as **collateral credit. **This value indicates a user how much credit is accessible from collateralizing an asset. asset has its own collateral credit value. Collateral is only taken from the liquidity supplied on step 1 when opening a farming position.
+Positions are defined by collateral and borrows. Collateral is the current value of the entire position multiplied by the collateral factor for the underlying assets, usually the lp token for that pool.
 
-_Borrowing credit_: Each asset also has its own borrowing credit value. A borrowing credit value determines how much credit (received from collateralizing an asset) is consumed from borrowing an asset.
+Each asset also has its own borrowing factor. A borrowing credit value determines how much credit (received from collateralizing an asset) is consumed from borrowing an asset.
 
-The collateral credit and borrowing credit of an asset depend on the volatility of the asset price. If an asset is volatile, the collateral credit will be low and the borrowing credit will be high. For instance, if a user supply ETH as collateral to borrow DAI, he would be able to borrow more DAI than if he were to otherwise supply ETH to borrow YFI (or any less stable asset).
+The collateral factor and borrowing factor of an asset depend on the volatility of the asset price. If an asset is volatile, the collateral credit will be low and the borrowing credit will be high. For instance, if a user supply CELO as collateral to borrow cUSD, he would be able to borrow more cUSD than if he were to otherwise supply CELO to borrow UBE (or any less stable asset).
 
 In order to make this simpler for users, Dahlia does not require the user to manage one's debt ratio, and the amount of leverage accessible to a yield farmer is automatically calculated in with a 100% maximum debt ratio.  
 

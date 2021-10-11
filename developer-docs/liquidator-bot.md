@@ -1,6 +1,3 @@
----
-description: Kyle
----
-
 # Liquidator Bot
 
+To protect the lenders from the borrows crossing into undercollateralized loans where there is no incentive to pay back, there is a liquidation mechanism in place. This work by assigning a borrow and collateral factor to each available asset. When the collateral of a position multiplied by the collateral factor of that underlying assets (LP token) is less than the debt value of that position multiplied by the borrow factor of the borrowed assets, a position is open to liquidation. Liquidation allows for a third party to come and pay of the debt of a postion, and in turn receive some of the underlying assets of that position (LP tokens) at a discounted value. In order to initially make this as transparent as possible, I have created an open source liquidation bot that can be used to take out a flash loan, liquidate a position, and pay back the loan, with the profits returned by the person running the bot. This is meant to be the last stop for a liquidation and I am sure that it is possible to make a more efficient design.
