@@ -28,7 +28,6 @@
 
 ## DEVELOPER DOCS
 
-* [Token Wrappers](developer-docs/token-wrappers.md)
 * [Liquidator Bot](developer-docs/liquidator-bot.md)
 
 ***
