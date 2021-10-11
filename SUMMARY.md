@@ -22,9 +22,9 @@
 * [Lend assets](lenders/lend-assets.md)
 * [Withdraw assets](lenders/withdraw-assets.md)
 
-## Cross-chain functionality <a id="bridge"></a>
+## Cross-chain functionality <a href="bridge" id="bridge"></a>
 
-* [Bridge Aggregator](bridge/cross-chain-functionality.md)
+* [Bridged Assets](bridge/cross-chain-functionality.md)
 
 ## DEVELOPER DOCS
 
@@ -32,10 +32,9 @@
 * [Token Wrappers](developer-docs/token-wrappers.md)
 * [Liquidator Bot](developer-docs/liquidator-bot.md)
 
----
+***
 
-* [dahlia.finance](https://dahlia.finance/)
+* [dahlia.finance](https://dahlia.finance)
 * [Twitter](https://twitter.com/dahliafinance)
 * [Medium](https://medium.com/dahlia-finance)
 * [GitHub](https://github.com/Dahlia-Finance)
-

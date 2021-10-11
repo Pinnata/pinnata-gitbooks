@@ -8,17 +8,15 @@ In order for yield farmers to access the highest possible leverage,  fully funct
 
 ## Interest rate formulas
 
-**Borrow Interest Rate** ​= Multiplier∗min\(Ua​,Kink\)+Jump Multiplier∗max\(0,Ua​−Kink\)+Base Rate​
+**Borrow Interest Rate** ​= Multiplier∗min(Ua​,Kink)+Jump Multiplier∗max(0,Ua​−Kink)+Base Rate​
 
-**Supply Interest Rate** ​= Borrowing Interest Ratea​∗Ua​∗\(1−Reserve Factora​\)
+**Supply Interest Rate** ​= Borrowing Interest Ratea​∗Ua​∗(1−Reserve Factora​)
 
 * **Reserve factor:** 0.0
-* **Base Rate:** 0.08
+* **Base Rate: **0.08
 * **Multiplier:** 0.4
 * **Jump Rate:** 2.0
 * **Kink:** 0.75
-
-
 
 
 
